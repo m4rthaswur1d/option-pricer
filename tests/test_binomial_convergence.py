@@ -19,7 +19,5 @@ def test_binomial_error_shrinks_vs_black_scholes_call():
         assert math.isfinite(price)
         errors.append(abs(price - bs))
 
-    # Convergence isn't always perfectly monotone, so enforce a strong “overall” improvement:
     assert errors[-1] < errors[0]
-    # And usually the last two should improve too:
     assert errors[-1] < errors[-2]
