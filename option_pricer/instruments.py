@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from typing import Literal
 
 OptionKind = Literal["call", "put"]
-OptionStyle = Literal["european"]  # keep simple for now
+OptionStyle = Literal["european"]
 
 @dataclass(frozen=True)
 class Option:
