@@ -4,8 +4,6 @@ A modular Python library for pricing European options using Binomial Tree and Bl
 
 This project is designed as a reusable pricing engine rather than a one-off notebook, and includes extensive tests covering arbitrage bounds, parity relations, convergence, and Greeks.
 
----
-
 ## Features
 
 - **Pricing models**
