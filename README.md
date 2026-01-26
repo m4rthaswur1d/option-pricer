@@ -1,6 +1,6 @@
 # Option Pricer
 
-A modular Python library for pricing European options using Binomial Tree and Black–Scholes*models, with a strong emphasis on financial theory validation, numerical correctness, and test-driven development.
+A modular Python library for pricing European options using Binomial Tree and Black–Scholes models, with a strong emphasis on financial theory validation, numerical correctness, and test-driven development.
 
 This project is designed as a reusable pricing engine rather than a one-off notebook, and includes extensive tests covering arbitrage bounds, parity relations, convergence, and Greeks.
 
