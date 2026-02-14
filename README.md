@@ -75,11 +75,11 @@ The Cox–Ross–Rubinstein binomial model discretizes the underlying price proc
 ### Finite Difference (PDE)
 
 The Black–Scholes equation can also be solved numerically by discretizing both time and asset price into a grid. The current implementation uses an implicit finite-difference time stepping scheme which requires solving a tridiagonal linear system at each time step. The solver is being validated by convergence tests against the analytic Black–Scholes solution. In progress.
----
 
 ## Mathematical Background
 
 Under the risk-neutral measure, the option price $V(S,t)$ satisfies the Black–Scholes PDE:
+
 
 $$
 \frac{\partial V}{\partial t}
