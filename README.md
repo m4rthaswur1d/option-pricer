@@ -81,12 +81,12 @@ The Black–Scholes equation can also be solved numerically by discretizing both
 Under the risk-neutral measure, the option price $V(S,t)$ satisfies the Black–Scholes PDE:
 
 
-$$
+```math
 \frac{\partial V}{\partial t}
 + (r - q)S \frac{\partial V}{\partial S}
 + \frac{1}{2}\sigma^2 S^2 \frac{\partial^2 V}{\partial S^2}
 - rV = 0
-$$
+```
 
 with terminal condition:
 
