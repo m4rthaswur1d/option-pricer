@@ -1,3 +1,23 @@
+"""
+Binomial Tree Pricer
+
+The binomial pricer values an option using a discrete-time approximation
+of the underlying asset’s price evolution. Over each time step,
+the asset price is assumed to move either up or down by fixed
+multiplicative factors, forming a recombining tree of possible future
+prices.
+
+At maturity, the option payoff is computed at every terminal node, and
+the price is obtained by backward induction: at each earlier node the
+option value equals the discounted risk-neutral expectation of its two
+future values. As the number of time steps increases, the binomial model
+converges to the Black–Scholes price. This method is intuitive and
+provides a bridge between direct payoff evaluation and continuous-time
+models.
+"""
+
+
+
 import math
 from option_pricer.instruments import Option
 from option_pricer.market import Market

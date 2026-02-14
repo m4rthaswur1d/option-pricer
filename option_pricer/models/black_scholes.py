@@ -1,3 +1,19 @@
+"""
+Black–Scholes Analytic Pricer
+
+The Black–Scholes pricer computes the value of a European option using the
+closed form solution to the Black–Scholes partial differential equation.
+The model assumes the underlying asset follows geometric Brownian motion
+with constant volatility and interest rates, and that markets are
+frictionless and arbitrage-free.
+
+Under these assumptions, the option price can be expressed as a function
+of the spot price, strike, time to maturity, risk-free rate, dividend
+yield, and volatility through the normal cumulative distribution function.
+This implementation evaluates the analytic formula directly, providing a
+fast and precise benchmark price used to validate the numerical methods
+in the library.
+"""
 
 import math
 from option_pricer.instruments import Option
