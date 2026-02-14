@@ -2,8 +2,6 @@
 
 A modular Python library for pricing European options using binomial tree, Black–Scholes, and finite-difference PDE methods, with an emphasis on financial theory validation, numerical correctness, and test-driven development.
 
----
-
 ## Features
 
 ### Pricing models
@@ -41,8 +39,6 @@ The test suite verifies:
 * Expiry behavior and sanity checks
 * PDE convergence to analytic solution (in progress)
 
----
-
 ## Project Structure
 
 ```
@@ -65,8 +61,6 @@ tests/
 ├── Binomial convergence tests
 └── Finite-difference PDE tests
 ```
-
----
 
 ## Model Descriptions
 
@@ -108,8 +102,6 @@ $$
 
 The finite-difference solver approximates the spatial derivatives using central differences and advances the solution backward in time.
 
----
-
 ## Project Goals
 
 This project demonstrates:
@@ -120,8 +112,6 @@ This project demonstrates:
 * software engineering practices (modular design and testing)
 
 Rather than relying on a single pricing formula, the library compares independent pricing methodologies and verifies they agree under theoretical constraints.
-
----
 
 ## Future Work
 
